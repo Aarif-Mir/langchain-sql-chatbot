@@ -13,7 +13,7 @@ This project is a Streamlit-based chatbot that allows you to interact with a SQL
 
 ### 1. Clone the repository
 ```
-git clone <your-repo-url>
+git clone https://github.com/Aarif-Mir/langchain-sql-chatbot.git
 cd 6-chatbot_sql
 ```
 
@@ -52,12 +52,5 @@ streamlit run app.py
 - For MySQL, you must provide all connection details.
 - All dependencies are listed in `requirements.txt`.
 
-## File Overview
-- `app.py` - Main Streamlit application
-- `sqlite.py` - Script to create and populate the sample SQLite database
-- `student.db` - Sample SQLite database
-- `requirements.txt` - Python dependencies
 
----
 
-Feel free to modify and extend this project for your own use cases! 
