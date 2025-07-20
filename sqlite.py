@@ -15,11 +15,11 @@ SECTION VARCHAR(25),MARKS INT)
 cursor.execute(table_info)
 
 # Insert some more records
-cursor.execute('''Insert Into STUDENT values('Krish','Data Science','A',90)''')
-cursor.execute('''Insert Into STUDENT values('John','Data Science','B',100)''')
-cursor.execute('''Insert Into STUDENT values('Mukesh','Data Science','A',86)''')
-cursor.execute('''Insert Into STUDENT values('Jacob','DEVOPS','A',50)''')
-cursor.execute('''Insert Into STUDENT values('Dipesh','DEVOPS','A',35)''')
+cursor.execute('''INSERT INTO STUDENT VALUES('Alice','Cyber Security','A',92)''')
+cursor.execute('''INSERT INTO STUDENT VALUES('Bob','Machine Learning','B',78)''')
+cursor.execute('''INSERT INTO STUDENT VALUES('Charlie','Cloud Computing','C',65)''')
+cursor.execute('''INSERT INTO STUDENT VALUES('David','AI & Robotics','B',88)''')
+cursor.execute('''INSERT INTO STUDENT VALUES('Eve','Blockchain','A',73)''')
 
 # Display all the records
 print("The inserted records are")
