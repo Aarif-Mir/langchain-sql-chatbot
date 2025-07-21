@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Aarif-Mir:$HF_TOKEN@huggingface.co/spaces/Aarif-Mir/Sql_Chatbot main
+        run: git push https://miraarif:$HF_TOKEN@huggingface.co/spaces/miraarif/Sql_Chatbot main
