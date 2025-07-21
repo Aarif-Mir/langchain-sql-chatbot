@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
 
-  # to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -25,11 +24,12 @@ jobs:
       - name: Add Hugging Face remote
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: git remote add hf https://miraarif:$HF_TOKEN@huggingface.co/spaces/miraarif/Sql_Chatbot
+
+      - name: Rebase Hugging Face changes (prefer GitHub version)
         run: |
-          git remote add hf https://miraarif:$HF_TOKEN@huggingface.co/spaces/miraarif/Sql_Chatbot
+          git fetch hf main
+          git rebase -X theirs hf/main
 
-      - name: Pull latest changes from HF Space
-        run: git pull hf main --rebase
-
-      - name: Push changes to HF Space
+      - name: Push to Hugging Face
         run: git push hf main
