@@ -2,6 +2,20 @@
 
 This project is a Streamlit-based chatbot that allows you to interact with a SQL database (SQLite or MySQL) using natural language, powered by LangChain and LLMs (Groq API).
 
+---
+title: Sql Chatbot
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+- streamlit
+pinned: false
+short_description: Interact with a SQL database  using natural language
+license: apache-2.0
+---
+
 ## Features
 - Chat with your database using natural language queries
 - Supports both SQLite (local) and MySQL (remote) databases
