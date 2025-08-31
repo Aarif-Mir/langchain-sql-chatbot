@@ -23,7 +23,7 @@ This project is a Streamlit-based chatbot that allows you to interact with a SQL
 ### 1. Clone the repository
 ```
 git clone https://github.com/Aarif-Mir/langchain-sql-chatbot.git
-cd 6-chatbot_sql
+cd chatbot_sql
 ```
 
 ### 2. Install dependencies
