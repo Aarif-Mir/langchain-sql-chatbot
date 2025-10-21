@@ -137,13 +137,13 @@ graph TD
 
 ### Component Flow
 
-1. ** User Interface**: Streamlit-based chat interface with sidebar configuration
-2. ** Validation Layer**: API key validation and database connection verification
-3. ** AI Processing**: Groq LLM translates natural language to SQL
-4. ** Agent Orchestration**: LangChain SQL agent executes queries
-5. ** Data Layer**: SQLAlchemy handles database connectivity
-6. ** Response Rendering**: Formatted results with interactive tables
-7. ** History Management**: Query logging and session state management
+1. **User Interface**: Streamlit-based chat interface with sidebar configuration
+2. **Validation Layer**: API key validation and database connection verification
+3. **AI Processing**: Groq LLM translates natural language to SQL
+4. **Agent Orchestration**: LangChain SQL agent executes queries
+5. **Data Layer**: SQLAlchemy handles database connectivity
+6. **Response Rendering**: Formatted results with interactive tables
+7. **History Management**: Query logging and session state management
 
 ## 🔧 Configuration
 
